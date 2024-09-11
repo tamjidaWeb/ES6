@@ -14,20 +14,28 @@ const number = [ 2,4,5,1,9,3,7];
 // const output = number.map(double2)
 // console.log(output)
 // const output2 = number.map(n=> n*2);
-const fiveBonus = number.map(num =>num+5);
-// console.log(fiveBonus);
+// const fiveBonus = number.map(num =>num+5);
+// // console.log(fiveBonus);
 
-const halves = number.map(num=>num/2);
-console.log(halves);
-const friends = ['john', 'mikel','jimil','oliver'];
-const length = friends.map(frnd=>frnd.length);
-console.log(length);
-const firstLetter = friends.map(friend=>friend[0]);
-console.log(firstLetter)
+// const halves = number.map(num=>num/2);
+// console.log(halves);
+// const friends = ['john', 'mikel','jimil','oliver'];
+// const length = friends.map(frnd=>frnd.length);
+// console.log(length);
+// const firstLetter = friends.map(friend=>friend[0]);
+// console.log(firstLetter)
 
 // const doubled = [];
 // for(const num of number){
 //     const double = num*2;
 //     doubled.push(double);
 // }
-// console.log(doubled)
+// console.log(doubled);
+
+const numbers=[3,5,2,7,3,1,9];
+const doubled = [];
+for(const num of numbers){
+    const double =  num *2;
+    doubled.push(double);
+}
+console.log(doubled)

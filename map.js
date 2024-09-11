@@ -33,9 +33,38 @@ const number = [ 2,4,5,1,9,3,7];
 // console.log(doubled);
 
 const numbers=[3,5,2,7,3,1,9];
-const doubled = [];
-for(const num of numbers){
-    const double =  num *2;
-    doubled.push(double);
-}
-console.log(doubled)
+
+// function doubledIt(num){
+//     console.log('number now', num)
+//     return num*2;
+// }
+// const double2 = n =>n*2;
+// const result = numbers.map(doubledIt);
+// console.log(result)
+const output = numbers.map(n=>n*2);
+console.log(output)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const doubled = [];
+// for(const num of numbers){
+//     const double =  num *2;
+//     doubled.push(double);
+// }
+// console.log(doubled);
+
+
+
+
